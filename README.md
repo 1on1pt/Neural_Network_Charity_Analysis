@@ -70,6 +70,7 @@ In the original model:
 * 5981 parameters; 43 inputs; 2 hidden layers; 1 output layer
 * The Rectified Linear Unit (RELU) activation function was used for the first and second layers
 * The Sigmoid activation function was used for the output layer
+* Epochs = 100
 * nn.summary()
 
 ![nn_summary_original](https://user-images.githubusercontent.com/94148420/166155170-a8fa1080-eefa-479b-81fe-58855836018e.PNG)
@@ -96,6 +97,7 @@ Various strategies were attempted to improve the accuracy score, but none of the
 * **Added third layer with 40 neurons**
 * Activation for layers = 'relu'
 * Activation for output = 'sigmoid'
+* Epochs = 100
 * Overall parameters increased to **14,181**
 * Overall decreased performance with accuracy rate **decreased by 0.19%** compared to the original model
 
@@ -110,6 +112,7 @@ Various strategies were attempted to improve the accuracy score, but none of the
 * **Added fourth layer with 20 neurons**
 * Activation for layers = 'relu'
 * Activation for output = 'sigmoid"
+* Epochs **decreaesed to 90**
 * Overall parameters now at **12,181**
 * Overall decreased performance with accuracy rate **decreased by 0.33%** compared to the original model
 
@@ -124,6 +127,7 @@ Various strategies were attempted to improve the accuracy score, but none of the
 * Neurons in layer 2 = **60**
 * **Activation for layers changed to 'sigmoid'**
 * Activation for output remained at 'sigmoid'
+* Epochs **increased to 125**
 * Overall parameters now at **10,021**
 * Overall decreased performance with accuracy rate **decreased by 0.44%** compared to the original model
 
