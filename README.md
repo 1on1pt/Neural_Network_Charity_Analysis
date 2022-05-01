@@ -24,6 +24,26 @@ Alphabet Soup’s business team provided a CSV containing more than 34,000 organ
 The ultimate goal is to utilize the newly created binary classifier to predict whether an organization that is applying for funding will be successful.
 
 ### Resources
+#### Code:
+* AlphabetSoupCharity.ipynb
+* AlphabetSoupCharity_Optimization.ipynb
+* AlphabetSoupCharity_Optimization_v1.ipynb
+* AlphabetSoupCharity_Optimizaiton_v2.ipynb
+* AlphabetSoupCharity_Optimizaiton_v3.ipynb
+
+#### Data:
+* 
+
+#### Software/Data Tools/Libraries:
+* Jupyter Notebook 6.4.6
+* Python 3.7.11
+* scikit-learn
+* hvPlot
+* Plotly
+* StandardScaler
+* MinMaxScaler
+* PCA
+* KMeans
 
 
 
