@@ -45,7 +45,7 @@ The ultimate goal is to utilize the newly created binary classifier to predict w
 * keras_tuner
 
 ## Results
-The goal was to optimize the deep neural model in order to achieve a target predictive accuracy higher than 75%.  The original model was set up as to not achieve this level of accuracy. There were three additional versions of the deep neural model created in attempt to reach this goal.  There was also an attempt to use kera_tuner to identify the best hyperparameters.
+The goal was to optimize the deep neural model in order to achieve a target predictive accuracy higher than 75%.  The original model was set up as to not achieve this level of accuracy. There were three additional versions of the deep neural model created in attempt to reach this goal.  There was also an attempt to use keras_tuner to identify the best hyperparameters.
 * AlphabetSoupCharity.ipynb (original model)
 * AlphabetSoupCharity_Optimization_v1.ipynb
 * AlphabetSoupCharity_Optimizaiton_v2.ipynb
