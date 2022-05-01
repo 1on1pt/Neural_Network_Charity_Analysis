@@ -21,7 +21,7 @@ Alphabet Soup’s business team provided a CSV containing more than 34,000 organ
 * ASK_AMT—Funding amount requested
 * IS_SUCCESSFUL—Was the money used effectively
 
-The ultimate goal is to utilize the newly created binary classifier to predict whether an organization that is applying for funding will be successful with their request.
+The ultimate goal is to utilize the newly created binary classifier to predict whether an organization that is applying for funding will be successful.
 
 ### Resources
 
