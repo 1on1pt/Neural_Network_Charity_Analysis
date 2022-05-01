@@ -91,45 +91,43 @@ Various strategies were attempted to improve the accuracy score, but none of the
 ![model_comparison](https://user-images.githubusercontent.com/94148420/166156620-314f4101-e09c-4a43-bb56-d30bce525ccc.PNG)
 
 #### Optimization_v1
-* Increased neurons in layer 1 to 100
-* Increased neurons in layer 2 to 80
-* Added third layer with 40 neurons
+* Increased neurons in layer 1 to **100**
+* Increased neurons in layer 2 to **80**
+* **Added third layer with 40 neurons**
 * Activation for layers = 'relu'
-* Activation for output = 'sigmoide'
-* Overall parameters increased to 14,181
+* Activation for output = 'sigmoid'
+* Overall parameters increased to **14,181**
 * Overall decreased performance with accuracy rate **decreased by 0.19%** compared to the original model
 
 ![nn_v1_summary](https://user-images.githubusercontent.com/94148420/166156835-d3e5c071-2498-4bad-9f08-ce74a4ce5655.PNG)
 
 
 #### Optimization_v2
-* Dropped 'ORGANIZATION' column
-* Neurons in layer 1 changed to 80
-* Neurons in layer 2 changed to 60
+* **Dropped 'ORGANIZATION' column**
+* Neurons in layer 1 changed to **80**
+* Neurons in layer 2 changed to **60**
 * Neurons in layer 3 remained at 40
-* Added fourth layer with 20 neurons
+* **Added fourth layer with 20 neurons**
 * Activation for layers = 'relu'
 * Activation for output = 'sigmoid"
-* Overall parameters now at 12,181
+* Overall parameters now at **12,181**
 * Overall decreased performance with accuracy rate **decreased by 0.33%** compared to the original model
 
 ![nn_v2_summary](https://user-images.githubusercontent.com/94148420/166157033-aa8bb0da-f989-4770-824e-14e25fdf46a3.PNG)
 
 
 #### Optimization_v3
-* APPLICATION_TYPE binning was changed; unique values with less than 1000 records were categorized as "Other"
-* CLASSIFICATION binning was changed; value counts less than 2100 were categorized as "Other"
+* APPLICATION_TYPE binning was changed; unique **values with less than 1000** records were categorized as "Other"
+* CLASSIFICATION binning was changed; **value counts less than 2100** were categorized as "Other"
 * Two hidden layers were used for this model
-* Neurons in layer 1 = 100
-* Neurons in layer 2 = 60
-* Activation for layers changed to 'sigmoid'
+* Neurons in layer 1 = **100**
+* Neurons in layer 2 = **60**
+* **Activation for layers changed to 'sigmoid'**
 * Activation for output remained at 'sigmoid'
-* Overall parameters now at 10,021
+* Overall parameters now at **10,021**
 * Overall decreased performance with accuracy rate **decreased by 0.44%** compared to the original model
 
 ![nn_v3_summary](https://user-images.githubusercontent.com/94148420/166157259-109258a5-a403-4eff-a3c6-dc9da8c4ba89.PNG)
-
-
 
 
 ## Summary
