@@ -136,3 +136,9 @@ Various strategies were attempted to improve the accuracy score, but none of the
 
 ## Summary
 Developing neural network and deep learning models to achieve a high degree of accuracy while minimizing loss can prove to be quite challenging.  There are so many options to consider for a model with an end result of maximizing accuracy.  Those options can be changed and influenced in the **data preprocessing phase** of developing the model or in the **compiling, training, and evaluating the model** phase.  The keras_tuner was attempted to identify hyperparameters, but this proved to be very time consuming.  Adding hidden layers and neurons, and thus increasing the overall parameters did not improve the accuracy with this data set.  It appears that a model with fewer parameters than what was used in the optimizing phase of this analysis might help to increase accuracy.  Recommendations would also include continued fine tuning in the data preprocessing phase as well as another attempt with using the keras_tuner to identify hyperparameters.
+
+______________________________________________________________
+
+### Contact:
+
+#### E-mail:  jbeauchamppt@gmail.com
